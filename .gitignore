@@ -1,6 +1,4 @@
 # Environment & secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -29,7 +27,6 @@ Thumbs.db
 desktop.ini
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -77,3 +74,5 @@ reddit_api_response_*.json
 smc_json_*_test.json
 .vercel
 .env*.local
+config.bat
+node_modules
